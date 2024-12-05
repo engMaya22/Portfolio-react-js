@@ -24,6 +24,7 @@ export const EXPERIENCES = [
     description: "Designed and implemented dynamic dashboards with FilamentPHP for enhanced data visualization and management. Developed and tested applications using Livewire and Laravel Filament. Created and integrated APIs, generated analytical statistics, and implemented e-commerce and payment technologies. Collaborated with the team to ensure high-quality software delivery.",
     technologies: ["Laravel", "FilamentPHP", "Livewire", "Postman", "APIs", "JavaScript"]
   },
+  
   {
     year: "2021 - 2023",
     role: "Back-End developer",
