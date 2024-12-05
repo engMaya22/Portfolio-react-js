@@ -43,11 +43,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Cube26",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Created a Courses Platform Dashboard via Laravel Nova with KPIs",
+    technologies: ["Laravel", "Nova", "MySQL"],
   },
   {
     title: "Task Management App",

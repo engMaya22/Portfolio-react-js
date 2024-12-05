@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import  Technologies from "./components/Technologies"
 import  Experience from "./components/Experience"
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                 <About />
                 <Technologies />
                 <Experience />
+                <Projects />
               </div>
 
          </div>
@@ -26,3 +28,7 @@ function App() {
 }
 
 export default App
+
+// make project section slider js 
+// add actual projects data  + sso + mailer + react projects with its images
+//add linkes for socials
