@@ -10,32 +10,33 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Back-End developer",
+    company: "Lucidly, UAE",
+    description: "Designed and implemented dynamic dashboards with FilamentPHP for enhanced data visualization and management. Developed and tested applications using Livewire and Laravel Filament. Designed databases with Lucidchart and implemented GraphQL APIs with PostgreSQL. Created and integrated APIs, generated analytical statistics, and implemented e-commerce and payment technologies. Collaborated with the team to ensure high-quality software delivery.",
+    technologies: ["Laravel", "FilamentPHP", "Nova", "Lucidchart", "JavaScript", "JS Chart","PostgreSQL"]
+
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2023 - 2024",
+    role: "Full stack developer",
+    company: "Webased , Lebanon",
+    description: "Designed and implemented dynamic dashboards with FilamentPHP for enhanced data visualization and management. Developed and tested applications using Livewire and Laravel Filament. Created and integrated APIs, generated analytical statistics, and implemented e-commerce and payment technologies. Collaborated with the team to ensure high-quality software delivery.",
+    technologies: ["Laravel", "FilamentPHP", "Livewire", "Postman", "APIs", "JavaScript"]
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2021 - 2023",
+    role: "Back-End developer",
+    company: "Lucidly, UAE",
+    description: "Developed and maintained administrative dashboards using Laravel Nova and FilamentPHP. Designed databases with Lucidchart, implemented RESTful APIs, and documented with Swagger. Created analytics dashboards with JS Chart and integrated real-time communication using Pusher and Amazon Chime. Collaborated with front-end teams to enhance UI and ensure high-quality deliverables through thorough debugging and activity logging.",
+    technologies: ["Laravel", "FilamentPHP", "Nova", "Lucidchart", "Swagger", "Postman", "Pusher", "Amazon Chime", "JavaScript", "JS Chart"]
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Back-End developer",
+    company: "Hashtag , Syria",
+    description: "Developed a CRUD application for efficient data management and contributed to an e-commerce system with Stripe integration for payment processing. Assisted in back-end development tasks under supervision.",
+    technologies: ["PHP", "Laravel", "Stripe", "MySQL"]
   },
 ];
 
