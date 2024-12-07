@@ -1,6 +1,11 @@
 
 import {PROJECTS} from "../constants"
 import { animate, motion } from "framer-motion"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Projects = () => {
   return (
@@ -11,45 +16,62 @@ const Projects = () => {
         initial={{opacity:0,y:-100 }}
         transition={{duration:1.5}}  
         className="text-4xl  text-center my-20">Projects</motion.h2>
-        <div className="">
-            {PROJECTS.map((project , index)=>(
-                <div key={index} className="flex flex-wrap mb-8 lg:justify-center ">
-                    <motion.div 
-                    whileInView={{opacity:1 , x:0}}
-                    initial={{opacity:0,x:-100 }}
-                    transition={{duration:1}}  
-                     className="w-full lg:w-1/4 "> 
-                      <img src={project.image}
-                       alt={project.title} 
-                       width={150}
-                       height={150}
-                       className="mb-6 rounded" />
-                    </motion.div>
-                    <motion.div 
-                      whileInView={{opacity:1 , x:0}}
-                      initial={{opacity:0,x:100 }}
-                      transition={{duration:1}}  
-                       className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 font-semibold">
-                         {project.title}
-                        </h6>
-                        <p className="mb-4 text-neutral-400">
-                            {project.description}
-                        </p>
-                        {project.technologies.map((technology , index)=>(
-                            <span key={index} className="bg-neutral-900 rounded py-1 px-2 mr-2  text-sm font-medium text-purple-900">
+       <Swiper
+            breakpoints={{
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            }}
+            className="border-neutral-900 rounded-1"
+            modules={[Pagination, Navigation]}
+            spaceBetween={50}
+            slidesPerView={3}
+            pagination={{ clickable: true }}
+        >
+        {PROJECTS.map((project, index) => (
+            <SwiperSlide 
+                key={index} 
+                className="flex items-center justify-center "
+            >
+                <div className="flex flex-col items-center text-center">
+                    {/* Image */}
+                    <img 
+                        src={project.image}
+                        alt={project.title}
+                        width={150}
+                        height={150}
+                        className="rounded mb-4"
+                    />
+                    
+                    {/* Title */}
+                    <h6 className="font-semibold mb-2">{project.title}</h6>
+                    
+                    {/* Description */}
+                    <p className="text-neutral-400 mb-4">{project.description}</p>
+                    
+                    {/* Technologies */}
+                    <div className="flex flex-wrap justify-center gap-2 mb-4 md:mb-6 lg:mb-8">
+                        {project.technologies.map((technology, index) => (
+                            <span 
+                                key={index} 
+                                className="bg-neutral-900 text-purple-900 rounded py-1 px-2 text-sm font-medium"
+                            >
                                 {technology}
                             </span>
                         ))}
-
-
-                    </motion.div>
-
+                    </div>
                 </div>
+            </SwiperSlide>
+        ))}
+       </Swiper>
 
-            ))}
-        </div>
-    
+
+     
     </div>
   )
 }

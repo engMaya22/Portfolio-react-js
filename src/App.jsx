@@ -23,6 +23,7 @@ function App() {
                 <Experience />
                 <Projects />
                 <Contact />
+             
               </div>
 
          </div>
@@ -31,9 +32,7 @@ function App() {
 
 export default App
 
-// make project section slider js   [check responsivity]
+
 // add actual projects data  + sso + mailer + react projects with its images
-//add linkes for socials
 //add tailwind css classes for each div and headline
 //add backend for it 
-//search for more beatuiful tailwind contatct form 
