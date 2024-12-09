@@ -32,7 +32,7 @@ function App() {
 
 export default App
 
-
-// add actual projects data  + sso + mailer + react projects with its images
-//add tailwind css classes for each div and headline
+//add better personal  images 
+// +react + ecm
+// add actual projects data  + sso  + react projects with its images + linkes
 //add backend for it 

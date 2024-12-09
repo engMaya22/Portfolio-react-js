@@ -43,32 +43,61 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Cube26",
+    title: "Cube26 Website",
     image: project1,
     description:
-      "Created a Courses Platform Dashboard via Laravel Nova with KPIs",
+      "Developed a robust course management platform with a dynamic dashboard using Laravel Nova. The dashboard features interactive KPIs to track platform performance and insights effectively.",
     technologies: ["Laravel", "Nova", "MySQL"],
   },
   {
-    title: "Task Management App",
+    title: "Giki Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    "Built a seamless conversations and meetings platform enabling real-time communication and collaboration. Integrated advanced messaging and video conferencing features powered by Pusher and Amazon Chime.",
+    technologies: ['Laravel', 'MySQL', 'Pusher' , 'Chime'],
   },
   {
-    title: "Portfolio Website",
+    title: "Drjules Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A Content management Website designed specifically for doctors , allows them to easily manage and update their blogs and services .",
+    technologies: ["HTML", "Tailwind", "Js", "Bootstrap", 'Filament'],
   },
   {
-    title: "Blogging Platform",
+    title: "Webased Portfolio Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    "Designed and developed a dynamic portfolio website to showcase company services effectively. Leveraged modern frameworks for responsive design and seamless user interaction.",
+    technologies: ["HTML", "Tailwind", "Livewire", "Filament", "mySQL"],
+  },
+  {
+    title: "Real Estate Website",
+    image: project3,
+    description:
+    "Developed a professional real estate website to showcase company services and completed projects. Designed with a focus on aesthetics and responsiveness to effectively highlight achievements and offerings.",
+    
+    technologies: ["HTML", "Tailwind", "React.js"],
+  },
+  {
+    title: "Totim Website",
+    image: project4,
+    description:
+    "Developed a presentation website for a hotel, showcasing its services, amenities, and offerings. Designed to provide a seamless and visually engaging experience for visitors.",
+    technologies: [ "Laravel",  "Nova", "mySQL"],
+  },
+  {
+    title: "SSO Website",
+    image: project4,
+    description:
+    "Developed a secure Single Sign-On (SSO) platform to streamline user authentication across multiple services. Integrated Laravel Nova for efficient administration and PostgreSQL for robust data management.",
+    technologies: [ "Laravel", "PostgreSQL",  "Nova"],
+  },
+  {
+    title: "Burger Website",
+    image: project4,
+    description:
+      "A Dynamic single-page application to showcase an enticing array of burgers and drinks. Employed responsive design principles for seamless viewing on various devices, ensuring an immersive user experience",
+    technologies: [ "HTML",  "CSS", "JS"],
   },
 ];
 

@@ -52,7 +52,7 @@ const Projects = () => {
                     <h6 className="font-semibold mb-2">{project.title}</h6>
                     
                     {/* Description */}
-                    <p className="text-neutral-400 mb-4">{project.description}</p>
+                    <p className="text-neutral-400 text-sm mb-4">{project.description}</p>
                     
                     {/* Technologies */}
                     <div className="flex flex-wrap justify-center gap-2 mb-4 md:mb-6 lg:mb-8">
