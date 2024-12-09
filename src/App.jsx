@@ -33,6 +33,5 @@ function App() {
 export default App
 
 //add better personal  images 
-// +react + ecm
-// add actual projects data  + sso  + react projects with its images + linkes
+// add actual projects image  + linkes +   react projects with its images 
 //add backend for it 
