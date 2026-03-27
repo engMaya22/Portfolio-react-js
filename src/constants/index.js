@@ -4,6 +4,7 @@ import project3 from "../assets/projects/realEstate.jpg";
 import project4 from "../assets/projects/portfolio.png";
 import project5 from "../assets/projects/leanation.png";
 import project6 from "../assets/projects/sso.png";
+import project7 from "../assets/projects/assessment.png";
 
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer with over 3 years of hands-on experience building robust, scalable, and high-performance web applications. I specialize in crafting seamless user experiences using modern front-end technologies like React and Livewire, combined with powerful back-end solutions.
@@ -111,6 +112,13 @@ export const PROJECTS = [
     technologies: [ "Laravel", "PostgreSQL",  "Nova"],
    
   },
+  {
+  title: "Temujin Assessment System",
+  image: project7,
+  description: `Developed an organizational assessment platform using FilamentPHP, building and customizing dynamic assessment workflows and user-friendly interfaces. Implemented automated reporting with Puppeteer and PDF generation with mPDF to deliver detailed evaluation results efficiently.`,
+  technologies: ["Laravel", "FilamentPHP", "Puppeteer", "mPDF", "JavaScript", "CSS"],
+  link:"https://temu.semicolonplus.com"
+},
   // {
 
   //   title: "Burger Website",
@@ -122,7 +130,7 @@ export const PROJECTS = [
   {
   title: "Lean Nation Diet Program Platform",
   image: project5,
- description: `Built a web platform for Lean Nation with Laravel Livewire and FilamentPHP, featuring user-friendly interfaces for managing consultations and content. Enabled users to explore the Protifast diet program, book consultations, and receive personalized guidance through a seamless experience.`,
+   description: `Built a web platform for Lean Nation with Laravel Livewire and FilamentPHP, featuring user-friendly interfaces for managing consultations and content. Enabled users to explore the Protifast diet program, book consultations, and receive personalized guidance through a seamless experience.`,
   technologies: ["Laravel", "Livewire", "FilamentPHP", "MySQL"],
    link:"https://www.leanation.com/"
 }
