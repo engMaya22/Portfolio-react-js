@@ -1,20 +1,45 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/cube.png";
+import project2 from "../assets/projects/giki.jpg";
+import project3 from "../assets/projects/realEstate.jpg";
+import project4 from "../assets/projects/portfolio.png";
+import project5 from "../assets/projects/leanation.png";
+import project6 from "../assets/projects/sso.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With over 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Livewire , as well as back-end technologies like Laravel, MySQL, PostgreSQL, and MongoDB.
- My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With over 3 years of professional experience, I have worked with a variety of technologies, including React, Livewire, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate Full Stack Developer with over 3 years of hands-on experience building robust, scalable, and high-performance web applications. I specialize in crafting seamless user experiences using modern front-end technologies like React and Livewire, combined with powerful back-end solutions.
 
+My back-end expertise includes Laravel, Node.js, and working with databases such as MySQL, PostgreSQL, and MongoDB. I enjoy designing efficient architectures, building APIs, and optimizing application performance to handle real-world demands.
+
+I am driven by a commitment to continuous learning and innovation, always exploring new technologies to deliver impactful solutions. My goal is to create applications that not only meet business needs but also provide exceptional user experiences and long-term value.
+`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with over 3 years of professional experience building efficient, scalable, and user-focused web applications. I specialize in modern front-end technologies like React and Livewire, combined with strong back-end expertise in Laravel and Node.js.
+
+I have hands-on experience working with databases such as MySQL, PostgreSQL, and MongoDB, and I enjoy designing clean architectures and building reliable APIs that power seamless user experiences.
+
+My journey into development started with a curiosity about how things work, which has grown into a continuous drive to learn, adapt, and improve. I thrive in collaborative environments, enjoy tackling complex problems, and take pride in delivering high-quality, maintainable solutions.
+
+Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, and staying active.
+`
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Back-End developer",
-    company: "Lucidly, UAE",
-    description: "Designed and implemented dynamic dashboards with FilamentPHP for enhanced data visualization and management. Developed and tested applications using Livewire and Laravel Filament. Designed databases with Lucidchart and implemented GraphQL APIs with PostgreSQL. Created and integrated APIs, generated analytical statistics, and implemented e-commerce and payment technologies. Collaborated with the team to ensure high-quality software delivery.",
-    technologies: ["Laravel", "FilamentPHP", "Nova", "Lucidchart", "JavaScript", "JS Chart","PostgreSQL"]
+    year: "2025 - Present",
+    role: "Full stack developer",
+    company: "ILLAFTrain Ltd, UAE",
+    description: `Designed and developed dynamic administrative dashboards using FilamentPHP, focusing on building intuitive and user-friendly interfaces with custom CSS. Implemented interactive front-end components and scripts to enhance usability and streamline data workflows.
+
+Built export functionalities using Puppeteer to generate dynamic reports and documents, and developed data visualization features using charting libraries to present analytical insights effectively. Designed and managed assessment and reporting systems to evaluate user performance and deliver actionable results.
+
+Worked extensively with Laravel and Livewire to develop scalable application features, integrated APIs, and ensured seamless communication between front-end and back-end systems. Collaborated closely with cross-functional teams to deliver high-quality, maintainable software solutions.
+`,
+    technologies: [  "Laravel",
+  "FilamentPHP",
+  "Livewire",
+  "CSS",
+  "JavaScript",
+  "Puppeteer",
+  "Chart.js",
+  "MYSQL"]
 
   },
   {
@@ -31,14 +56,7 @@ export const EXPERIENCES = [
     company: "Lucidly, UAE",
     description: "Developed and maintained administrative dashboards using Laravel Nova and FilamentPHP. Designed databases with Lucidchart, implemented RESTful APIs, and documented with Swagger. Created analytics dashboards with JS Chart and integrated real-time communication using Pusher and Amazon Chime. Collaborated with front-end teams to enhance UI and ensure high-quality deliverables through thorough debugging and activity logging.",
     technologies: ["Laravel", "FilamentPHP", "Nova", "Lucidchart", "Swagger", "Postman", "Pusher", "Amazon Chime", "JavaScript", "JS Chart"]
-  },
-  {
-    year: "2020 - 2021",
-    role: "Back-End developer",
-    company: "Hashtag , Syria",
-    description: "Developed a CRUD application for efficient data management and contributed to an e-commerce system with Stripe integration for payment processing. Assisted in back-end development tasks under supervision.",
-    technologies: ["PHP", "Laravel", "Stripe", "MySQL"]
-  },
+  }
 ];
 
 export const PROJECTS = [
@@ -56,14 +74,15 @@ export const PROJECTS = [
     "Built a seamless conversations and meetings platform enabling real-time communication and collaboration. Integrated advanced messaging and video conferencing features powered by Pusher and Amazon Chime.",
     technologies: ['Laravel', 'MySQL', 'Pusher' , 'Chime'],
   },
+  // {
+  //   title: "Drjules Website",
+  //   image: project3,
+  //   description:
+  //     "A Content management Website designed specifically for doctors , allows them to easily manage and update their blogs and services .",
+  //   technologies: ["HTML", "Tailwind", "Js", "Bootstrap", 'Filament'],
+  // },
   {
-    title: "Drjules Website",
-    image: project3,
-    description:
-      "A Content management Website designed specifically for doctors , allows them to easily manage and update their blogs and services .",
-    technologies: ["HTML", "Tailwind", "Js", "Bootstrap", 'Filament'],
-  },
-  {
+    link:"https://portfolio.webased.net",
     title: "Webased Portfolio Website",
     image: project4,
     description:
@@ -71,12 +90,11 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind", "Livewire", "Filament", "mySQL"],
   },
   {
-    title: "Real Estate Website",
+    title: "Full Stack Real Estate Platform",
     image: project3,
-    description:
-    "Developed a professional real estate website to showcase company services and completed projects. Designed with a focus on aesthetics and responsiveness to effectively highlight achievements and offerings.",
+    description: "Developed a full-stack real estate platform using Node.js for the backend and React.js with Tailwind CSS for the frontend. Built responsive and user-friendly interfaces to showcase properties and services, while implementing scalable APIs and efficient data handling to support dynamic content and seamless user interactions.",
     
-    technologies: ["HTML", "Tailwind", "React.js"],
+    technologies: ["Node.js", "React.js", "Tailwind CSS"]
   },
   {
     title: "Totim Website",
@@ -87,18 +105,27 @@ export const PROJECTS = [
   },
   {
     title: "SSO Website",
-    image: project4,
+    image: project6,
     description:
     "Developed a secure Single Sign-On (SSO) platform to streamline user authentication across multiple services. Integrated Laravel Nova for efficient administration and PostgreSQL for robust data management.",
     technologies: [ "Laravel", "PostgreSQL",  "Nova"],
+   
   },
+  // {
+
+  //   title: "Burger Website",
+  //   image: project4,
+  //   description:
+  //     "A Dynamic single-page application to showcase an enticing array of burgers and drinks. Employed responsive design principles for seamless viewing on various devices, ensuring an immersive user experience",
+  //   technologies: [ "HTML",  "CSS", "JS"],
+  // },
   {
-    title: "Burger Website",
-    image: project4,
-    description:
-      "A Dynamic single-page application to showcase an enticing array of burgers and drinks. Employed responsive design principles for seamless viewing on various devices, ensuring an immersive user experience",
-    technologies: [ "HTML",  "CSS", "JS"],
-  },
+  title: "Lean Nation Diet Program Platform",
+  image: project5,
+ description: `Built a web platform for Lean Nation with Laravel Livewire and FilamentPHP, featuring user-friendly interfaces for managing consultations and content. Enabled users to explore the Protifast diet program, book consultations, and receive personalized guidance through a seamless experience.`,
+  technologies: ["Laravel", "Livewire", "FilamentPHP", "MySQL"],
+   link:"https://www.leanation.com/"
+}
 ];
 
 export const CONTACT = {
