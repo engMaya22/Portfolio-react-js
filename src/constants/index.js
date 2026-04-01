@@ -115,7 +115,7 @@ export const PROJECTS = [
  
   {
     title: "Full Stack Real Estate Platform",
-    link:"https://quickstaty.vercel.app"
+    link:"https://quickstaty.vercel.app",
     image: project3,
     description: "Developed a full-stack real estate platform using Node.js for the backend and React.js with Tailwind CSS for the frontend. Built responsive and user-friendly interfaces to showcase properties and services, while implementing scalable APIs and efficient data handling to support dynamic content and seamless user interactions.",
     
