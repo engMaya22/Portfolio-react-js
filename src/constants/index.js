@@ -73,7 +73,7 @@ export const PROJECTS = [
     image: project7,
     description: `Developed an organizational assessment platform using FilamentPHP, building and customizing dynamic assessment workflows and user-friendly interfaces. Implemented automated reporting with Puppeteer and PDF generation with mPDF to deliver detailed evaluation results efficiently.`,
     technologies: ["Laravel", "FilamentPHP", "Puppeteer", "mPDF", "JavaScript", "CSS"],
-    link:"https://temu.semicolonplus.com"
+    link:"https://app.temujin.world/"
     },
     {
     link:"https://portfolio.webased.net",
