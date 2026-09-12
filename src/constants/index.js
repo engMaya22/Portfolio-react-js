@@ -5,6 +5,7 @@ import project4 from "../assets/projects/portfolio.png";
 import project5 from "../assets/projects/leanation.png";
 import project6 from "../assets/projects/sso.png";
 import project7 from "../assets/projects/assessment.png";
+import glowpas from "../assets/projects/glowpas.jpg";
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer with over 3 years of hands-on experience building robust, scalable, and high-performance web applications. I specialize in crafting seamless user experiences using modern front-end technologies like React and Livewire, combined with powerful back-end solutions.
 
