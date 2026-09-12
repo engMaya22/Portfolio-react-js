@@ -6,6 +6,9 @@ import project5 from "../assets/projects/leanation.png";
 import project6 from "../assets/projects/sso.png";
 import project7 from "../assets/projects/assessment.png";
 import glowpas from "../assets/projects/glowpas.jpg";
+import bravopay from "../assets/projects/bravopay.jpg";
+
+
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer with over 3 years of hands-on experience building robust, scalable, and high-performance web applications. I specialize in crafting seamless user experiences using modern front-end technologies like React and Livewire, combined with powerful back-end solutions.
 
@@ -140,6 +143,23 @@ export const PROJECTS = [
       "MySQL",
     ],
   },
+
+  {
+  link: "https://bravopay.illaf.mobi/",
+  title: "BravoPay payment gateway",
+  image: bravopay,
+  description:
+    "Built a multi-tenant payments service that several products use through a versioned REST API. It handles orders, invoices, subscriptions and a shared wallet ledger, all stored as integer minor units with snapshotted exchange rates. It also runs Stripe Checkout, idempotent retries, HMAC-signed webhooks with retries, and a bilingual (EN/AR, RTL) Filament dashboard with role-based access and an append-only audit log.",
+  technologies: [
+    "Laravel",
+    "Filament",
+    "Livewire",
+    "Stripe",
+    "MySQL",
+    "Redis",
+    "Docker",
+  ],
+},
 
   {
     title: "Giki Website",
