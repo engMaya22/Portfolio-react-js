@@ -6,7 +6,7 @@ import project5 from "../assets/projects/leanation.png";
 import project6 from "../assets/projects/sso.png";
 import project7 from "../assets/projects/assessment.png";
 import glowpas from "../assets/projects/glowpas.jpg";
-import bravopay from "../assets/projects/bravopay.jpg";
+import bravopay from "../assets/projects/parvopay.jpg";
 
 
 
