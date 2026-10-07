@@ -8,8 +8,6 @@ import project7 from "../assets/projects/assessment.png";
 import glowpas from "../assets/projects/glowpas.jpg";
 import bravopay from "../assets/projects/parvopay.jpg";
 
-
-
 export const HERO_CONTENT = `I am a passionate Full Stack Developer with over 3 years of hands-on experience building robust, scalable, and high-performance web applications. I specialize in crafting seamless user experiences using modern front-end technologies like React and Livewire, combined with powerful back-end solutions.
 
 My back-end expertise includes Laravel, Node.js, and working with databases such as MySQL, PostgreSQL, and MongoDB. I enjoy designing efficient architectures, building APIs, and optimizing application performance to handle real-world demands.
@@ -145,21 +143,23 @@ export const PROJECTS = [
   },
 
   {
-  link: "https://bravopay.illaf.mobi/",
-  title: "BravoPay payment gateway",
-  image: bravopay,
-  description:
-    "Built a multi-tenant payments service that several products use through a versioned REST API. It handles orders, invoices, subscriptions and a shared wallet ledger, all stored as integer minor units with snapshotted exchange rates. It also runs Stripe Checkout, idempotent retries, HMAC-signed webhooks with retries, and a bilingual (EN/AR, RTL) Filament dashboard with role-based access and an append-only audit log.",
-  technologies: [
-    "Laravel",
-    "Filament",
-    "Livewire",
-    "Stripe",
-    "MySQL",
-    "Redis",
-    "Docker",
-  ],
-},
+    link: "https://bravopay.illaf.mobi/",
+    title: "BravoPay payment gateway",
+    image: bravopay,
+    description:
+      "A multi-tenant payment platform that several products share through a versioned REST API. It has a pluggable gateway layer (Stripe, PayTabs, Tabby BNPL) and covers orders, invoicing, recurring subscriptions and a multi-currency wallet ledger. Money is stored as integer minor units with saved exchange rates. It also includes idempotent, rate-limited endpoints, HMAC-signed webhooks with retries, financial reporting, and a bilingual (EN/AR, RTL) Filament dashboard with role-based access and an append-only audit log.",
+    technologies: [
+      "Laravel",
+      "PHP",
+      "Filament",
+      "Livewire",
+      "MySQL",
+      "Redis",
+      "Stripe",
+      "PayTabs",
+      "Docker",
+    ],
+  },
 
   {
     title: "Giki Website",
