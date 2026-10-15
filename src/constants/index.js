@@ -102,7 +102,7 @@ export const PROJECTS = [
       "JavaScript",
       "CSS",
     ],
-    link: "https://app.temujin.world/",
+    link: "https://temujin.world/en",
   },
   {
     link: "https://portfolio.webased.net",
