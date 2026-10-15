@@ -84,65 +84,6 @@ Worked extensively with Laravel and Livewire to develop scalable application fea
 
 export const PROJECTS = [
   {
-    title: "Lean Nation Diet Program Platform",
-    image: project5,
-    description: `Built a web platform for Lean Nation with Laravel Livewire and FilamentPHP, featuring user-friendly interfaces for managing consultations and content. Enabled users to explore the Protifast diet program, book consultations, and receive personalized guidance through a seamless experience.`,
-    technologies: ["Laravel", "Livewire", "FilamentPHP", "MySQL"],
-    link: "https://www.leanation.com/",
-  },
-  {
-    title: "Temujin Assessment System",
-    image: project7,
-    description: `Developed an organizational assessment platform using FilamentPHP, building and customizing dynamic assessment workflows and user-friendly interfaces. Implemented automated reporting with Puppeteer and PDF generation with mPDF to deliver detailed evaluation results efficiently.`,
-    technologies: [
-      "Laravel",
-      "FilamentPHP",
-      "Puppeteer",
-      "mPDF",
-      "JavaScript",
-      "CSS",
-    ],
-    link: "https://temujin.world/en",
-  },
-  {
-    link: "https://portfolio.webased.net",
-    title: "Webased Portfolio Website",
-    image: project4,
-    description:
-      "Designed and developed a dynamic portfolio website to showcase company services effectively. Leveraged modern frameworks for responsive design and seamless user interaction.",
-    technologies: ["HTML", "Tailwind", "Livewire", "Filament", "mySQL"],
-  },
-  {
-    title: "SSO Website",
-    image: project6,
-    description:
-      "Developed a secure Single Sign-On (SSO) platform to streamline user authentication across multiple services. Integrated Laravel Nova for efficient administration and PostgreSQL for robust data management.",
-    technologies: ["Laravel", "PostgreSQL", "Nova"],
-  },
-  {
-    title: "Cube26 Website",
-    image: project1,
-    description:
-      "Developed a robust course management platform with a dynamic dashboard using Laravel Nova. The dashboard features interactive KPIs to track platform performance and insights effectively.",
-    technologies: ["Laravel", "Nova", "MySQL"],
-  },
-  {
-    link: "https://glowpas.com/en",
-    title: "Glowpas platform",
-    image: glowpas,
-    description:
-      "Built a multi-tenant assessment platform that turns one survey into four branded PDF report products for individuals, leaders, teams, and organizations. Owned the reporting layer: custom polar and comparison charts, and a queued Puppeteer-to-mPDF engine producing 100+ page bilingual (EN/AR, RTL) documents.",
-    technologies: [
-      "Laravel",
-      "Filament",
-      "Livewire",
-      "Puppeteer",
-      "mPDF",
-      "MySQL",
-    ],
-  },
-
-  {
     link: "https://bravopay.illaf.mobi/",
     title: "BravoPay payment gateway",
     image: bravopay,
@@ -160,7 +101,64 @@ export const PROJECTS = [
       "Docker",
     ],
   },
-
+  {
+    title: "Temujin Assessment System",
+    image: project7,
+    description: `Developed an organizational assessment platform using FilamentPHP, building and customizing dynamic assessment workflows and user-friendly interfaces. Implemented automated reporting with Puppeteer and PDF generation with mPDF to deliver detailed evaluation results efficiently.`,
+    technologies: [
+      "Laravel",
+      "FilamentPHP",
+      "Puppeteer",
+      "mPDF",
+      "JavaScript",
+      "CSS",
+    ],
+    link: "https://temujin.world/en",
+  },
+  {
+    link: "https://glowpas.com/en",
+    title: "Glowpas platform",
+    image: glowpas,
+    description:
+      "Built a multi-tenant assessment platform that turns one survey into four branded PDF report products for individuals, leaders, teams, and organizations. Owned the reporting layer: custom polar and comparison charts, and a queued Puppeteer-to-mPDF engine producing 100+ page bilingual (EN/AR, RTL) documents.",
+    technologies: [
+      "Laravel",
+      "Filament",
+      "Livewire",
+      "Puppeteer",
+      "mPDF",
+      "MySQL",
+    ],
+  },
+  {
+    title: "SSO Website",
+    image: project6,
+    description:
+      "Developed a secure Single Sign-On (SSO) platform to streamline user authentication across multiple services. Integrated Laravel Nova for efficient administration and PostgreSQL for robust data management.",
+    technologies: ["Laravel", "PostgreSQL", "Nova"],
+  },
+  {
+    title: "Lean Nation Diet Program Platform",
+    image: project5,
+    description: `Built a web platform for Lean Nation with Laravel Livewire and FilamentPHP, featuring user-friendly interfaces for managing consultations and content. Enabled users to explore the Protifast diet program, book consultations, and receive personalized guidance through a seamless experience.`,
+    technologies: ["Laravel", "Livewire", "FilamentPHP", "MySQL"],
+    link: "https://www.leanation.com/",
+  },
+  {
+    link: "https://portfolio.webased.net",
+    title: "Webased Portfolio Website",
+    image: project4,
+    description:
+      "Designed and developed a dynamic portfolio website to showcase company services effectively. Leveraged modern frameworks for responsive design and seamless user interaction.",
+    technologies: ["HTML", "Tailwind", "Livewire", "Filament", "mySQL"],
+  },
+  {
+    title: "Cube26 Website",
+    image: project1,
+    description:
+      "Developed a robust course management platform with a dynamic dashboard using Laravel Nova. The dashboard features interactive KPIs to track platform performance and insights effectively.",
+    technologies: ["Laravel", "Nova", "MySQL"],
+  },
   {
     title: "Giki Website",
     image: project2,
